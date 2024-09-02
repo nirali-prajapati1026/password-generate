@@ -1,0 +1,64 @@
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(4, 4, 26);
+}
+.contener{
+    background-color: azure;
+    width: 280px;
+    padding: 22px;
+    text-align: center;
+    border-radius: 4px;
+    margin-top: 3%;
+}
+#passwordinput{
+    width: 250px;
+    height:13px ;
+    padding: 11px;
+    border: 2px solid black;
+    outline: none;
+}
+.text{
+    display: flex;
+    margin-top:10px;
+}
+.text p{
+    margin-left: 11px;
+    font-size: 20px;
+}
+#passwordlength{
+    width: 35px;
+    height: 30px;
+    position: absolute;
+    margin-left: 200px;
+    margin-top: 5px;
+}
+.option{
+    margin-top:35px ;
+}
+.text input[type=checkbox]{
+    width: 15px;
+    height: 15px;
+    accent-color: rgb(2, 241, 2);
+    position: absolute;
+    margin-left: 200px;
+    margin-top: 5px;
+}
+button{
+    width: 240px;
+    height: 25px;
+    background-color: rgb(3,3,58);
+    color: antiquewhite;
+    margin-top:20px ;
+    border: none;
+    border-radius: 10px;
+    outline: 22px;
+    padding-bottom: 30px ;
+    padding-top: 15px;
+    font-size: 15px;
+}

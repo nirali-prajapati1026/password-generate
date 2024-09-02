@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="contener">
+        <div class="input">
+            <input type="text" id="passwordinput" >
+        </div>
+        <div class="option">
+            <div class="text">
+                <p>passwordlength</p> <input type="number" id="passwordlength" value="8">
+            </div>
+            <div class="text">
+                <p>uppercase</p><input type="checkbox" id="uppercase">
+            </div>
+            <div class="text">
+                <p>lowercase</p><input type="checkbox" id="lowercase">
+            </div>
+            <div class="text">
+                <p>number</p><input type="checkbox" id="number">
+            </div>
+            <div class="text">
+                <p>smbolys</p><input type="checkbox" id="symbol">
+            </div>
+            <button onclick="myfun()">Genreatpassword</button>
+            
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
